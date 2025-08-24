@@ -74,6 +74,7 @@ export default function Home() {
 
     // Descargar (compatible con móviles/iOS)
     const dataURL = cv.toDataURL("image/png");
+    const cleanName = text.replace(/\s+/g, " ").trim();
     triggerDownload(dataURL, `Certificado - ${cleanName}.png`);
   }
 
