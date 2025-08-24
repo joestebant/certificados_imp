@@ -32,7 +32,7 @@ export default function Home() {
     if (!nombre.trim()) return;
 
     // Cargar imagen base
-    const img = await loadImage("/template-certificado.png");
+    const img = await loadImage("/template_certificado.png");
 
     // Asegurar carga de fuente
     try {
