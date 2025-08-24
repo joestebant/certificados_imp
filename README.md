@@ -12,3 +12,4 @@ http://localhost:3000
 Sube este folder a GitHub y despliega como Next.js 14.
 
 *La imagen base debe estar en `/public/template-certificado.png` (incluida).*
+# certificados_imp
